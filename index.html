@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .typing {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100px;
+            width: 18ch;
+            border-radius: 3px solid;
+            overflow: hidden;
+            animation: type 3s steps(56) infinite;
+            white-space: nowrap;
+        }
+
+        span,
+        body {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(65, 5, 84, 1) 37%, rgba(112, 9, 121, 1) 92%, rgba(0, 212, 255, 1) 100%);
+            color: #eee;
+        }
+
+
+        @keyframes type {
+            from {
+                width: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="typing"> <span>This is a typing demo.</span></div>
+</body>
+
+</html>
